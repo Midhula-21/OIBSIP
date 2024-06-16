@@ -1,0 +1,107 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+
+
+
+body{
+    display :flex;
+    align-items: center;
+    min-height : 100vh;
+    justify-content: center;
+    background-image: url("weather 1.jpg") ;
+}
+}
+
+.container{
+    max-width: 600px;
+    display: inline-block;
+    padding: 15px;
+    font-family : "DM Serif Display", serif;
+    border: none;
+}
+
+.heading{
+    display:flex;
+    align-items : center;
+    gap : 10px;
+    color: black;
+}
+
+.heading i{
+    align-items: center;
+    font-size : 40px
+}
+
+h1{
+    font-size : 45px;
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
+}
+
+#celsius,#fahrenheit,#kelvin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top : 25px;
+    margin-left :25px;
+    }
+
+input{
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+    height: 60px;
+    flex:5;
+    padding: 0px 10px;
+    background : none;
+}
+
+.icon{
+    flex : 1;
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    border-radius:0px 10px 10px 0px ;
+    padding : 0 4px;
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    margin:2px
+    
+}
+
+.button{
+    text-align: center;
+    padding:20px;
+}
+
+button{
+    margin-top: 20px;
+    text-align: center;
+    background : none;
+    font-size: 20px;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 9px;;
+}
+
+button:hover{
+    transform: scale(1.15)
+}
+
+input:hover{
+    transform:scale(1.05)
+}
+
+::placeholder{
+    font-size:large;
+    color: black;
+    font-weight: bold;
+    font-style: normal;
+
+
+}
+
+
